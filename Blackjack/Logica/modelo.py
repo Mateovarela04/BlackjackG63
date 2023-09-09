@@ -37,6 +37,20 @@ class Jugador:
     def inicializador_mano(self, cartas):
         pass
 
+    def jugador_se_planta(self):
+        pass
+
+    def jugada_jugador(self):
+        pass
+
+    def jugador_gano(self):
+        pass
+
+    def se_paga_jugador(self):
+        pass
+
+    def se_resta_jugador(self):
+        pass
 
 class Blackjack:
 
@@ -49,4 +63,43 @@ class Blackjack:
         pass
 
     def iniciar_juego(self, apuesta: int):
+        pass
+
+    def reoartir_cartas(self, cartas: list):
+        pass
+
+    def jugada_jugador(self):
+        pass
+
+    def jugador_se_planta(self):
+        pass
+
+    def calcular_mano_jugador(self):
+        pass
+
+    def jugada_casa(self):
+        pass
+
+    def mostrar_cartas_casa(self, cartas: list):
+        pass
+
+    def casa_gano(self):
+        pass
+
+    def comparar_manos(self):
+        pass
+
+    def jugador_gano(self):
+        pass
+
+    def empate(self):
+        pass
+
+    def se_paga_jugador(self):
+        pass
+
+    def se_resta_jugador(self):
+        pass
+
+    def jugar_de_nuevo(self):
         pass
